@@ -55,19 +55,11 @@
   justify-content: space-between;
 }
 
-.tabs-row button,
-.monaco-editor-tabs button {
-  padding: 6px 12px;
-  border-width: 3px;
-  border-style: solid;
-}
-
 .monaco-editor-tabs button + button {
   margin-inline-start: 3px;
 }
 
 .monaco-editor-tabs {
-  display: flex;
   margin-inline-end: auto;
 }
 
@@ -207,7 +199,6 @@
 }
 
 #mobile-layout .monaco-editor-tabs {
-  padding: 10px;
   width: 100%;
 }
 
